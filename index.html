@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+<body class="body">
+
+        <div class="top">
+            <div class="top">
+                <div class = "headPart">
+                    <img class ="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQa90lC2Y2K9JbH4ovcboy0zI5F-Hbs6lXDog&usqp=CAU">
+                    <div class="logo-text" >Pathfinding Visualiser</div>
+                </div>
+                <!--<div class = "headPart">
+                    <div class="Box" style="background-color: rgba(211, 88, 17, 0.986)"></div>
+                    <div class="Head-text" >Start Node</div>
+                </div>
+                <div class = "headPart">
+                    <div class="Box" style="background-color: rgba(0, 4, 255, 0.753)"></div>
+                    <div class="Head-text" >Target Node</div>
+                </div>-->
+                <div class = "headPart">
+                    <div class="Box" style="background-color: rgba(15, 158, 75, 0.753)"></div>
+                    <div class="Head-text" >Unvisited Node</div>
+                </div>
+                <div class = "headPart">
+                    <div class="Box" style="background-color: rgba(3, 88, 128, 0.815)"></div>
+                    <div class="Head-text" >Visited Node</div>
+                </div>
+                <div class = "headPart">
+                    <div class="Box" style="background-color: rgba(170, 20, 163, 0.719)"></div>
+                    <div class="Head-text" >Minimum-cost-path Node</div>
+                </div>
+            </div>
+        </div>
+        <div class="middle"> 
+
+            <p class="mid-text">
+                click on <button class="but" id="create">CREATE</button> to create...
+            </p>
+            <p class="mid-text">
+                click on <button class="but" id="changer">DOIT</button> to visualize...
+            </p>
+            
+        </div>
+        <div class="rest">
+            <table id="board" class="board" > </table>
+            <table id="board1" class="board1" > </table>
+        </div>
+    <script src="scripts/grid.js"></script>
+</body>
+</html>
